@@ -1,5 +1,9 @@
 Very simple, work in progress input driver for the SPI keyboard / trackpad found on 12" MacBooks (2015 and later) and newer MacBook Pros (late 2016 and later).
 
+* Related blog post: <https://medium.com/@zh3w4ng/install-kali-linux-kernel-6-12-on-macbook-12inch-84b47f33718a>.
+* Tested on Linux Mint 22.3 'Zena' Cinnamon Edition (64-bit).
+* Related repository was working on Fedora/CentOS/RHEL but the required Akmods module is no longer available: <https://github.com/roadrunner2/macbook12-spi-driver>.
+
 Using it:
 ---------
 If you're on any MacBook or MacBook Pro other than MacBook8,1 (2015), and you're running a kernel before 4.11, then you'll need to boot the kernel with `intremap=nosid`. In all cases make sure you don't have `noapic` in your kernel options.
